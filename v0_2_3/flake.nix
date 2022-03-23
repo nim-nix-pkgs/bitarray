@@ -1,5 +1,5 @@
 {
-  description = ''mmap-backed bitarray implementation in Nim.'';
+  description = ''Efficient in-memory or mmap-backed bitarray implementation in Nim'';
 
   inputs.flakeNimbleLib.owner = "riinr";
   inputs.flakeNimbleLib.ref   = "master";

@@ -1,5 +1,5 @@
 {
-  description = ''mmap-backed bitarray implementation in Nim.'';
+  description = ''Efficient in-memory or mmap-backed bitarray implementation in Nimrod – note uses patched memfiles module (provided in /private) as of May 12, 2014 '';
 
   inputs.flakeNimbleLib.owner = "riinr";
   inputs.flakeNimbleLib.ref   = "master";
