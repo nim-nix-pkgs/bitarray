@@ -11,6 +11,7 @@
   inputs.src-bitarray-master.ref   = "refs/heads/master";
   inputs.src-bitarray-master.owner = "onecodex";
   inputs.src-bitarray-master.repo  = "nim-bitarray";
+  inputs.src-bitarray-master.dir   = "";
   inputs.src-bitarray-master.type  = "github";
   
   outputs = { self, nixpkgs, flakeNimbleLib, ...}@deps:
