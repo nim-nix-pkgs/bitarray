@@ -11,7 +11,6 @@
   inputs.src-bitarray-v0_1_4.ref   = "refs/tags/v0.1.4";
   inputs.src-bitarray-v0_1_4.owner = "onecodex";
   inputs.src-bitarray-v0_1_4.repo  = "nim-bitarray";
-  inputs.src-bitarray-v0_1_4.dir   = "";
   inputs.src-bitarray-v0_1_4.type  = "github";
   
   outputs = { self, nixpkgs, flakeNimbleLib, ...}@deps:
